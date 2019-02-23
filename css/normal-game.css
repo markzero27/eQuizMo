@@ -1,0 +1,186 @@
+/*bakcground*/
+
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+/*main*/
+
+#main{
+  font-family: fantasy;
+  margin: 50px 20px;
+}
+
+#main a{
+color: #ffffff;
+}
+
+#main a:hover{
+  color: #5454db;
+  text-decoration:inherit;
+}
+
+#main label{
+  color: white;
+   font-size: 10px;
+}
+
+h3{
+  color:#f86b6b;
+  font-size: 2.5vw;
+}
+
+#nav{
+      margin-top: 20px;  
+    }
+/*button*/
+
+.btn-custom {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.btn-custom:hover {
+  color: #5454db;
+  text-decoration:inherit;
+
+}
+
+.btn-custom:focus, .btn-custom.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+btn-custom:not(:disabled):not(.disabled):active, .btn-custom:not(:disabled):not(.disabled).active,
+.show > .btn-custom.dropdown-toggle {
+  color: #fff;
+  background-color: #343a40 !important;
+}
+
+.Qlist{
+  
+  height: 170px;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+ }
+
+.Qlist::-webkit-scrollbar {
+  width: 0.1em;
+  background: transparent;
+}
+.Qlist::-webkit-scrollbar-thumb {
+  background: #c0392b;
+}
+
+.qlabel{
+    width: 200px;
+    }
+    
+.under{
+  border-bottom: 1px solid white;
+}
+
+.black{
+  color: #1a1818;
+   font-weight: bolder;
+  text-shadow: 2px 1px 5px #ffffff;
+}
+
+
+footer{
+    font-size: 10px;
+}
+
+ 
+#disp{
+  font-size: 100px;
+}
+
+.rand{
+  padding-top: 0px;
+  font-size: 5em;
+}
+
+.wheel {
+   margin-top: 20%;
+    text-align: center;
+    height: 105px;
+    overflow: hidden;
+}
+
+.wheel .fa {
+    display: block;
+    margin-bottom: 0.5em;
+}
+      
+    
+@media only screen and (min-width: 768px){
+        
+    h3{
+      font-size: 2vw;
+    }
+    #nav{
+        margin-top: 65px;
+    }
+
+    #main label{
+       font-size: 1.2vw;
+    }
+    #main{
+        font-family: cursive;
+        margin: 120px 50px;
+    }
+
+    .Qlist{
+         margin: 27px 0;
+          height: 24vw;
+          display: block;
+          overflow-x: hidden;
+          overflow-y: auto;
+    }
+
+    .qlabel{
+        width: 550px;
+    }
+    
+    footer{
+        font-size: 15px;
+        margin-bottom: 4px;
+    }
+     
+      #disp{
+          font-size: 100px;
+      }
+      
+      .rand{
+          padding-top: 0px;
+          font-size: 5em;
+      }
+      
+       .wheel {
+           margin-top: 20%;
+            text-align: center;
+            height: 105px;
+            overflow: hidden;
+        }
+        
+        .wheel .fa {
+            display: block;
+            margin-bottom: 0.5em;
+        }
+      
+}
+
+    
+
+    
